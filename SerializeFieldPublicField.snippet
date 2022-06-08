@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>SerializeField Public Field</Title>
+			<Author>Gabriel Bigardi</Author>
+			<Description>Creates a public field with SerializeField attribute</Description>
+			<Shortcut>spf</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[[field: SerializeField] public $FieldType$ $FieldName$ { $FieldGetter$; $FieldSetter$; }]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>FieldType</ID>
+					<Default>int</Default>
+					<ToolTip>The type of the variable</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>FieldName</ID>
+					<Default>_myFieldName</Default>
+					<ToolTip>The name of the variable</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>FieldGetter</ID>
+					<Default>get</Default>
+					<ToolTip>The getter of the field</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>FieldSetter</ID>
+					<Default>set</Default>
+					<ToolTip>The setter of the field</ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

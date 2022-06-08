@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Interpolated Debug.Log</Title>
+			<Author>Gabriel Bigardi</Author>
+			<Description>Creates a interpolated Debug.Log</Description>
+			<Shortcut>idb</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[Debug.Log($$"$LogContent$");]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>LogContent</ID>
+					<Default>Your text goes here</Default>
+					<ToolTip>The content of your Debug.Log</ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

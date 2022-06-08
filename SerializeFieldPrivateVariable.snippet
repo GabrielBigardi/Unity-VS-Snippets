@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>SerializeField Private Variable</Title>
+			<Author>Gabriel Bigardi</Author>
+			<Description>Creates a private variable with SerializeField attribute</Description>
+			<Shortcut>spv</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[[SerializeField] private $VarType$ $VarName$;]]>
+            </Code>
+			<Declarations>
+				<Literal>
+					<ID>VarType</ID>
+					<Default>int</Default>
+					<ToolTip>The type of the variable</ToolTip>
+				</Literal>
+				<Literal>
+					<ID>VarName</ID>
+					<Default>_myVariableName</Default>
+					<ToolTip>The name of the variable</ToolTip>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
