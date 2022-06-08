@@ -7,6 +7,6 @@ A set of Visual Studio snippets for usage with Unity Engine
 3. Hit the OK button, if a dialog box shows up just select "Replace"
 
 ## Manual Installing
-1. Open your Windows Explorer and navigate to the folder 
+1. Open your Windows Explorer and navigate to the folder  
 ```C:\Users\YOUR_USERNAME\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets```
 2. Drag and drop the .snippets file in there
